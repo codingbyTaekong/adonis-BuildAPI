@@ -34,3 +34,7 @@ Route.post('/cafes', 'CafesController.create');
 Route.get('/cafes', 'CafesController.list');
 Route.get('/cafes/:id', 'CafesController.read');
 Route.post('/upload', 'CafesController.upload');
+
+Route.post('/auth/signup', 'AuthController.signUp');
+Route.post('/auth/signin', 'AuthController.signIn');
+Route.get('/auth/profile', 'AuthController.profile');
