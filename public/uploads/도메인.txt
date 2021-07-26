@@ -1,0 +1,17 @@
+도메인(구매처) - 네임서버(구매처) - 메일/서버/메신저
+                   - cafe24, NCP, AWS
+                   - cafe24, hosting.kr, 가비아 - DNS 레코드 설정
+                   - 서버실 - DNS 레코드 설정(리눅스/서버 담당자)
+
+
+DNS 레코드 설정
+A레코드 : www. ~ pict.kr  : @ / www -> 네이버, 다음, 구글 SEO  / vr.pict.kr 
+CNAME 
+SPF
+TXT
+
+
+후이즈
+네임서버 따로 DNS레코드 설정 따로
+- pict.kr   - 네임서버 cafe24
+             - DNS레코드 설정 ( 후이즈에서 따로 관리 )
